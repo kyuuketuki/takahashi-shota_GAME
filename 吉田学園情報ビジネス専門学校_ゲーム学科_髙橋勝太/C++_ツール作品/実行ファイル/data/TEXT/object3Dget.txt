@@ -1,0 +1,447 @@
+#==============================================================================
+#
+# [object3Dget.txt]
+# Author : TAKAHASHI SHOTA
+#
+#==============================================================================
+
+#------------------------------------------------------------------------------
+# 読み込むXファイルの数
+#------------------------------------------------------------------------------
+MAX_MODEL = 16
+
+#------------------------------------------------------------------------------
+# Xファイル名 最大256
+#------------------------------------------------------------------------------
+MODEL_FILENAME = data/MODEL/ob.x		        # [0]四角形
+MODEL_FILENAME = data/MODEL/goal.x		        # [1]ポイント
+MODEL_FILENAME = data/MODEL/car004.x	        # [2]車
+MODEL_FILENAME = data/MODEL/car01.x		        # [3]木
+MODEL_FILENAME = data/MODEL/block.x		        # [4]コイン
+MODEL_FILENAME = data/MODEL/baloon01.x	        # [5]風船
+MODEL_FILENAME = data/MODEL/tree000.x	        # [6]木小
+MODEL_FILENAME = data/MODEL/tree001.x	        # [7]木中
+MODEL_FILENAME = data/MODEL/tree002.x	        # [8]木大
+MODEL_FILENAME = data/MODEL/tower000.x	        # [9]テレビ塔
+MODEL_FILENAME = data/MODEL/bench.x		        # [10]ベンチ
+MODEL_FILENAME = data/MODEL/building01.x		# [11]建築物
+MODEL_FILENAME = data/MODEL/building02.x		# [12]建築物
+MODEL_FILENAME = data/MODEL/building03.x		# [13]建築物
+MODEL_FILENAME = data/MODEL/building04.x		# [14]建築物
+MODEL_FILENAME = data/MODEL/building05.x		# [15]建築物
+
+#------------------------------------------------------------------------------
+# オブジェクトの生成 最大256
+#------------------------------------------------------------------------------
+
+OBJECTSET
+	POSX = 0.0
+	POSY = 0.0
+	POSZ = 1182.9
+	ROTX = 0.0
+	ROTY = 0.0
+	ROTZ = 0.0
+	TYPE = 9
+END_OBJECTSET
+
+OBJECTSET
+	POSX = -394.4
+	POSY = 0.0
+	POSZ = 1320.1
+	ROTX = 0.0
+	ROTY = 0.0
+	ROTZ = 0.0
+	TYPE = 11
+END_OBJECTSET
+
+OBJECTSET
+	POSX = -690.1
+	POSY = 0.0
+	POSZ = 1294.4
+	ROTX = 0.0
+	ROTY = 0.0
+	ROTZ = 0.0
+	TYPE = 12
+END_OBJECTSET
+
+OBJECTSET
+	POSX = -1178.7
+	POSY = 0.0
+	POSZ = 1243.0
+	ROTX = 0.0
+	ROTY = -0.0
+	ROTZ = 0.0
+	TYPE = 13
+END_OBJECTSET
+
+OBJECTSET
+	POSX = 475.1
+	POSY = 0.0
+	POSZ = 1281.6
+	ROTX = 0.0
+	ROTY = -0.0
+	ROTZ = 0.0
+	TYPE = 13
+END_OBJECTSET
+
+OBJECTSET
+	POSX = 925.1
+	POSY = 0.0
+	POSZ = 1255.9
+	ROTX = 0.0
+	ROTY = -0.0
+	ROTZ = 0.0
+	TYPE = 12
+END_OBJECTSET
+
+OBJECTSET
+	POSX = 1259.3
+	POSY = 0.0
+	POSZ = 1243.0
+	ROTX = 0.0
+	ROTY = 0.0
+	ROTZ = 0.0
+	TYPE = 11
+END_OBJECTSET
+
+OBJECTSET
+	POSX = -211.2
+	POSY = 0.0
+	POSZ = 595.3
+	ROTX = 0.0
+	ROTY = -1.6
+	ROTZ = 0.0
+	TYPE = 8
+END_OBJECTSET
+
+OBJECTSET
+	POSX = 200.2
+	POSY = 0.0
+	POSZ = 595.3
+	ROTX = 0.0
+	ROTY = -1.6
+	ROTZ = 0.0
+	TYPE = 8
+END_OBJECTSET
+
+OBJECTSET
+	POSX = 405.9
+	POSY = 0.0
+	POSZ = 595.3
+	ROTX = 0.0
+	ROTY = -1.8
+	ROTZ = 0.0
+	TYPE = 8
+END_OBJECTSET
+
+OBJECTSET
+	POSX = 598.8
+	POSY = 0.0
+	POSZ = 595.3
+	ROTX = 0.0
+	ROTY = -1.6
+	ROTZ = 0.0
+	TYPE = 8
+END_OBJECTSET
+
+OBJECTSET
+	POSX = 791.7
+	POSY = 0.0
+	POSZ = 595.3
+	ROTX = 0.0
+	ROTY = -1.6
+	ROTZ = 0.0
+	TYPE = 8
+END_OBJECTSET
+
+OBJECTSET
+	POSX = 1010.2
+	POSY = 0.0
+	POSZ = 595.3
+	ROTX = 0.0
+	ROTY = -1.6
+	ROTZ = 0.0
+	TYPE = 8
+END_OBJECTSET
+
+OBJECTSET
+	POSX = 1190.2
+	POSY = 0.0
+	POSZ = 595.3
+	ROTX = 0.0
+	ROTY = -1.6
+	ROTZ = 0.0
+	TYPE = 8
+END_OBJECTSET
+
+OBJECTSET
+	POSX = 1408.8
+	POSY = 0.0
+	POSZ = 595.3
+	ROTX = 0.0
+	ROTY = -1.6
+	ROTZ = 0.0
+	TYPE = 8
+END_OBJECTSET
+
+OBJECTSET
+	POSX = -416.9
+	POSY = 0.0
+	POSZ = 595.3
+	ROTX = 0.0
+	ROTY = 1.6
+	ROTZ = 0.0
+	TYPE = 8
+END_OBJECTSET
+
+OBJECTSET
+	POSX = -596.9
+	POSY = 0.0
+	POSZ = 595.3
+	ROTX = 0.0
+	ROTY = 1.6
+	ROTZ = 0.0
+	TYPE = 8
+END_OBJECTSET
+
+OBJECTSET
+	POSX = -802.6
+	POSY = 0.0
+	POSZ = 595.3
+	ROTX = 0.0
+	ROTY = 1.6
+	ROTZ = 0.0
+	TYPE = 8
+END_OBJECTSET
+
+OBJECTSET
+	POSX = -995.5
+	POSY = 0.0
+	POSZ = 595.3
+	ROTX = 0.0
+	ROTY = -1.6
+	ROTZ = 0.0
+	TYPE = 8
+END_OBJECTSET
+
+OBJECTSET
+	POSX = -1214.1
+	POSY = 0.0
+	POSZ = 595.3
+	ROTX = 0.0
+	ROTY = 1.6
+	ROTZ = 0.0
+	TYPE = 8
+END_OBJECTSET
+
+OBJECTSET
+	POSX = -1394.1
+	POSY = 0.0
+	POSZ = 595.3
+	ROTX = 0.0
+	ROTY = 1.6
+	ROTZ = 0.0
+	TYPE = 8
+END_OBJECTSET
+
+OBJECTSET
+	POSX = -211.2
+	POSY = 0.0
+	POSZ = 402.4
+	ROTX = 0.0
+	ROTY = -0.0
+	ROTZ = 0.0
+	TYPE = 8
+END_OBJECTSET
+
+OBJECTSET
+	POSX = -211.2
+	POSY = 0.0
+	POSZ = 196.7
+	ROTX = 0.0
+	ROTY = -0.0
+	ROTZ = 0.0
+	TYPE = 8
+END_OBJECTSET
+
+OBJECTSET
+	POSX = -211.2
+	POSY = 0.0
+	POSZ = -9.0
+	ROTX = 0.0
+	ROTY = -0.0
+	ROTZ = 0.0
+	TYPE = 8
+END_OBJECTSET
+
+OBJECTSET
+	POSX = 187.4
+	POSY = 0.0
+	POSZ = -9.0
+	ROTX = 0.0
+	ROTY = -1.6
+	ROTZ = 0.0
+	TYPE = 8
+END_OBJECTSET
+
+OBJECTSET
+	POSX = 187.4
+	POSY = 0.0
+	POSZ = 171.0
+	ROTX = 0.0
+	ROTY = -0.0
+	ROTZ = 0.0
+	TYPE = 8
+END_OBJECTSET
+
+OBJECTSET
+	POSX = 187.4
+	POSY = 0.0
+	POSZ = 415.3
+	ROTX = 0.0
+	ROTY = -3.1
+	ROTZ = 0.0
+	TYPE = 8
+END_OBJECTSET
+
+OBJECTSET
+	POSX = -1313.2
+	POSY = 0.0
+	POSZ = 604.4
+	ROTX = 0.0
+	ROTY = -1.4
+	ROTZ = 0.0
+	TYPE = 7
+END_OBJECTSET
+
+OBJECTSET
+	POSX = -1115.3
+	POSY = 0.0
+	POSZ = 604.4
+	ROTX = 0.0
+	ROTY = -1.6
+	ROTZ = 0.0
+	TYPE = 7
+END_OBJECTSET
+
+OBJECTSET
+	POSX = -909.6
+	POSY = 0.0
+	POSZ = 604.4
+	ROTX = 0.0
+	ROTY = -1.6
+	ROTZ = 0.0
+	TYPE = 7
+END_OBJECTSET
+
+OBJECTSET
+	POSX = -716.7
+	POSY = 0.0
+	POSZ = 604.4
+	ROTX = 0.0
+	ROTY = 1.3
+	ROTZ = 0.0
+	TYPE = 7
+END_OBJECTSET
+
+OBJECTSET
+	POSX = -511.0
+	POSY = 0.0
+	POSZ = 604.4
+	ROTX = 0.0
+	ROTY = -1.5
+	ROTZ = 0.0
+	TYPE = 7
+END_OBJECTSET
+
+OBJECTSET
+	POSX = -318.1
+	POSY = 0.0
+	POSZ = 604.4
+	ROTX = 0.0
+	ROTY = -1.6
+	ROTZ = 0.0
+	TYPE = 7
+END_OBJECTSET
+
+OBJECTSET
+	POSX = 286.1
+	POSY = 0.0
+	POSZ = 604.4
+	ROTX = 0.0
+	ROTY = -1.6
+	ROTZ = 0.0
+	TYPE = 7
+END_OBJECTSET
+
+OBJECTSET
+	POSX = 504.7
+	POSY = 0.0
+	POSZ = 604.4
+	ROTX = 0.0
+	ROTY = -1.6
+	ROTZ = 0.0
+	TYPE = 7
+END_OBJECTSET
+
+OBJECTSET
+	POSX = 684.7
+	POSY = 0.0
+	POSZ = 604.4
+	ROTX = 0.0
+	ROTY = -1.6
+	ROTZ = 0.0
+	TYPE = 7
+END_OBJECTSET
+
+OBJECTSET
+	POSX = 890.4
+	POSY = 0.0
+	POSZ = 604.4
+	ROTX = 0.0
+	ROTY = -1.1
+	ROTZ = 0.0
+	TYPE = 7
+END_OBJECTSET
+
+OBJECTSET
+	POSX = 1109.0
+	POSY = 0.0
+	POSZ = 604.4
+	ROTX = 0.0
+	ROTY = -1.6
+	ROTZ = 0.0
+	TYPE = 7
+END_OBJECTSET
+
+OBJECTSET
+	POSX = 1289.0
+	POSY = 0.0
+	POSZ = 604.4
+	ROTX = 0.0
+	ROTY = -1.6
+	ROTZ = 0.0
+	TYPE = 7
+END_OBJECTSET
+
+OBJECTSET
+	POSX = -179.2
+	POSY = 0.0
+	POSZ = 928.3
+	ROTX = 0.0
+	ROTY = 0.1
+	ROTZ = 0.0
+	TYPE = 10
+END_OBJECTSET
+
+OBJECTSET
+	POSX = 168.0
+	POSY = 0.0
+	POSZ = 928.3
+	ROTX = 0.0
+	ROTY = -0.0
+	ROTZ = 0.0
+	TYPE = 10
+END_OBJECTSET
+
+END_SCRIPT		# この行は絶対消さない！
